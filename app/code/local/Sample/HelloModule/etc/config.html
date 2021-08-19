@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+ 
+<config>
+    <modules>
+        <Sample_HelloModule>
+            <version>0.1.0</version>
+        </Sample_HelloModule>
+    </modules>    
+    <frontend>
+        <routers>
+            <Sample_HelloModule_sayHello>
+                <use>standard</use>
+                <args>
+                    <module>Sample_HelloModule</module>
+                    <frontName>sample-hellomodule</frontName>
+                </args>
+            </Sample_HelloModule_sayHello>
+        </routers>
+    </frontend>    
+</config>

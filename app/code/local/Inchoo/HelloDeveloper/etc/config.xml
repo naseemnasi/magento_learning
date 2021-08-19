@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+
+<config>
+    <modules>
+        <Inchoo_HelloDeveloper>
+            <version>0.0.2</version>
+        </Inchoo_HelloDeveloper>
+    </modules>
+    <global>
+        <resources>
+            <helloDeveloper_setup>
+                <setup>
+                    <module>Inchoo_HelloDeveloper</module>
+                </setup>
+            </helloDeveloper_setup>
+        </resources>
+        <helpers>
+            <HelloDeveloper>
+                <class>Inchoo_HelloDeveloper_Helper</class>
+            </HelloDeveloper>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <Inchoo_HelloDeveloper_sayHello>
+                <use>standard</use>
+                <args>
+                    <module>Inchoo_HelloDeveloper</module>
+                    <frontName>test-url</frontName>
+                </args>
+            </Inchoo_HelloDeveloper_sayHello>
+        </routers>
+    </frontend>
+</config>

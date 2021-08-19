@@ -1,0 +1,9 @@
+a:5:{i:0;s:49:"Can't retrieve entity config: user_test/user_test";i:1;s:1161:"#0 /var/www/myfth.com/magento-mirror-1.9.3.6/app/code/core/Mage/Core/Model/Resource.php(282): Mage::throwException('Can't retrieve ...')
+#1 /var/www/myfth.com/magento-mirror-1.9.3.6/app/code/local/Inchoo/HelloDeveloper/controllers/IndexController.php(19): Mage_Core_Model_Resource->getTableName('user_test/user_...')
+#2 /var/www/myfth.com/magento-mirror-1.9.3.6/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Inchoo_HelloDeveloper_IndexController->indexAction()
+#3 /var/www/myfth.com/magento-mirror-1.9.3.6/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#4 /var/www/myfth.com/magento-mirror-1.9.3.6/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /var/www/myfth.com/magento-mirror-1.9.3.6/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /var/www/myfth.com/magento-mirror-1.9.3.6/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#7 /var/www/myfth.com/magento-mirror-1.9.3.6/index.php(83): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:19:"/index.php/test-url";s:11:"script_name";s:10:"/index.php";s:4:"skin";s:7:"default";}
